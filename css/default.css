@@ -286,16 +286,10 @@ textarea {
 }
 button {
 	background: #ffffff;
-	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
 	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
-	-webkit-border-radius: 5;
-	-moz-border-radius: 5;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 1px 3px #666666;
-	-moz-box-shadow: 0px 1px 3px #666666;
 	box-shadow: 0px 1px 3px #666666;
 	font-family: Arial;
 	color: #8a8683;
@@ -306,10 +300,7 @@ button {
 }
 button:hover {
 	background: #e6e6e6;
-	background-image: -webkit-linear-gradient(top, #e6e6e6, #ccc);
-	background-image: -moz-linear-gradient(top, #e6e6e6, #ccc);
-	background-image: -ms-linear-gradient(top, #e6e6e6, #ccc);
-	background-image: -o-linear-gradient(top, #e6e6e6, #ccc);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#ccc));
 	background-image: linear-gradient(to bottom, #e6e6e6, #ccc);
 	text-decoration: none;
 	color: white;
@@ -432,8 +423,6 @@ footer p {
 		margin: 3px 0 9px 0;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
-		-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
 		border-radius: 2px;
 	}
 	a.to_nav:hover, a.to_nav:focus {
